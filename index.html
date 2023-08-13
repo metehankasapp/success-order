@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Order</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .success-popup {
+            width: 100%;
+            height: 100vh;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        .success-popup-inner {
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .success-popup-inner h2 {
+            font-size: 22px;
+        }
+
+        .success-popup-inner video {
+            max-width: 250px;
+            width: 90%;
+        }
+
+        .success-popup-inner h2 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="success-popup">
+
+        <div class="success-popup-inner">
+            <video src="./animation.mp4" loop muted autoplay></video>
+
+            <h2>
+                Siparişiniz oluşturuldu !
+            </h2>
+
+            <p>
+                Ürünleriniz en kısa sürede belirttiğiniz adrese teslim edilecektir.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
